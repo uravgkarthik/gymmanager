@@ -31,7 +31,7 @@ public class GymController {
 
     @PostMapping("/add")
     public void putData(@RequestBody Gym gym){
-    gymService.putData();
+    gymService.putData(gym);
 
     }
 }

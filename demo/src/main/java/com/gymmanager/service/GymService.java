@@ -23,6 +23,6 @@ public class GymService {
     }
 
     public void putData(Gym gym){
-        repo.save();
+        repo.save(gym);
     }
 }
